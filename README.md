@@ -1,4 +1,4 @@
-# mea-cas13-analysis
+# dragon-cas13-analysis
 
 This repository contains scripts used to the generative algorithms used to design artificial guides, analyze their performance, and generate the display items shown in the DRAGON manuscript. 
 
