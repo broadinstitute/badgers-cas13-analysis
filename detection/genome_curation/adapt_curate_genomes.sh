@@ -1,0 +1,9 @@
+# ADAPT (https://github.com/broadinstitute/adapt) was run in order to download and curate the genomic sequences for each virus.
+# The path to mafft should be replaced with the user's MAFFT path
+
+design.py sliding-window auto-from-args 11320 '2' '../adapt_results/guidesFLUA.tsv' -w 28 -gl 28 --write-input-aln 'FLUA.fasta' --mafft-path '../../../mafft-linux64/mafft.bat' --predict-cas13a-activity-model --obj maximize-activity  -hgc 1 --cluster-threshold 0.3  --verbose --prep-influenza --metadata-filter year=2021,2020,2019,2018,2017 &
+design.py sliding-window auto-from-args 138949 'None' '../adapt_results/guidesEVB.tsv' -w 28 -gl 28 --write-input-aln 'EVB.fasta' --mafft-path '../../../mafft-linux64/mafft.bat' --predict-cas13a-activity-model --obj maximize-activity  -hgc 1 --cluster-threshold 0.3  --verbose 
+design.py sliding-window auto-from-args 12637 'None' '../adapt_results/guidesDENV.tsv' -w 28 -gl 28 --write-input-aln 'DENV.fasta' --mafft-path '../../../mafft-linux64/mafft.bat' --predict-cas13a-activity-model --obj maximize-activity  -hgc 1 --cluster-threshold 0.3  --verbose --metadata-filter year=2021,2020,2019,2018,2017
+# As described in the methods, the SARS-CoV-2 genomes were downloaded from GISAID and LASV from NCBI
+design.py sliding-window fasta ../alignments/final-full-genome-design/SARSCOV2.fasta.0 -o '../adapt_results/guidesSARSCOV2.tsv.0' -w 28 -gl 28 --predict-cas13a-activity-model --obj maximize-activity  -hgc 1 --verbose 
+design.py sliding-window fasta ../alignments/final-full-genome-design/LASVsegS.fasta.0 -o '../adapt_results/guidesLASVsegS.tsv.0' -w 28 -gl 28 --predict-cas13a-activity-model --obj maximize-activity  -hgc 1 --verbose  
