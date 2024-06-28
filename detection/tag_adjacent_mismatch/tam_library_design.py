@@ -6,7 +6,7 @@ import fastaparser
 import os
 import numpy as np
 import pandas as pd
-from dragon.utils import prepare_sequences as prep_seqs 
+from badgers.utils import prepare_sequences as prep_seqs 
 from random import sample
 import random
 

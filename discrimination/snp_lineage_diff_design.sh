@@ -1,5 +1,5 @@
 #!/bin/sh
-# Script to run the algorithms in DRAGON to design guides that perform SNP identification and differentiate between viral lineages
+# Script to run the algorithms in BADGERS to design guides that perform SNP identification and differentiate between viral lineages
  
 # Here, we design guides for six key clinically relevant SNPs:
 # Each .fasta file has two sequence: the WT sequence and the sequence with the variant, so we use the option  --all_targets_one_file

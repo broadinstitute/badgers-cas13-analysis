@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 import flexs
-from dragon.utils import prepare_sequences as prep_seqs
+from badgers.utils import prepare_sequences as prep_seqs
 
 import os
 import time

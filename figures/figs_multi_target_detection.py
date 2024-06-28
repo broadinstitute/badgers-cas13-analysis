@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 import random
 from scipy import stats
-from dragon.utils import prepare_sequences as prep_seqs
+from badgers.utils import prepare_sequences as prep_seqs
 sys.path.append('../detection/alignments/')
 import process_genomic_sites as import_fasta  
 from matplotlib.colors import ListedColormap

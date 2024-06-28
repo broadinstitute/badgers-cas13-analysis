@@ -7,10 +7,10 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import seaborn as sns
-from dragon.models.cas13_diff import Cas13Diff 
-from dragon.utils.cas13_landscape import Cas13Landscape
-from dragon.utils import prepare_sequences as prep_seqs
-from dragon.utils import import_fasta as import_fasta
+from badgers.models.cas13_diff import Cas13Diff 
+from badgers.utils.cas13_landscape import Cas13Landscape
+from badgers.utils import prepare_sequences as prep_seqs
+from badgers.utils import import_fasta as import_fasta
 
 sns.set_theme(font="Helvetica", style='ticks')
 plt.rcParams['pdf.fonttype'] = 42
