@@ -1,8 +1,8 @@
-# dragon-cas13-analysis
+# badgers-cas13-analysis
 
-This repository contains scripts used to design artificial guides with the generative algorithms and generate display items shown in the DRAGON manuscript. 
+This repository contains scripts used to design artificial guides with the generative algorithms and generate display items shown in the BADGERS manuscript. 
 
-**Please see the [main repository](https://github.com/broadinstitute/dragon-cas13) for more information on the algorithms and how they can be run.**
+**Please see the [main repository](https://github.com/broadinstitute/badgers-cas13) for more information on the algorithms and how they can be run.**
 
 ## Summary of contents
 Below is a summary of this repository's contents:
